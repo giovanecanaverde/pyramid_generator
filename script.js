@@ -1,9 +1,11 @@
 let character = 'Hello';
 
-let profession = "Teacher";
+let count = 8;
 
-let age;
+console.log(count + 1);
 
-console.log(profession);
+console.log(count - 2);
 
-console.log(age);
+console.log(count * 3);
+
+console.log(count / 2);
