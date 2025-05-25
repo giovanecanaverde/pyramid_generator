@@ -13,3 +13,7 @@ console.log(secondCharacter);
 secondCharacter = 'Test';
 
 console.log(secondCharacter);
+
+secondCharacter = character;
+
+console.log(secondCharacter);
