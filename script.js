@@ -1,19 +1,9 @@
 let character = 'Hello';
 
-console.log(character);
+let profession = "Teacher";
 
-character = 'World';
+let age;
 
-console.log(character);
+console.log(profession);
 
-let secondCharacter;
-
-console.log(secondCharacter);
-
-secondCharacter = 'Test';
-
-console.log(secondCharacter);
-
-secondCharacter = character;
-
-console.log(secondCharacter);
+console.log(age);
