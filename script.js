@@ -2,10 +2,12 @@ let character = 'Hello';
 
 let count = 8;
 
-console.log(count + 1);
+let rows = ['Naomi', 'Quincy', 'CamperChan'];
 
-console.log(count - 2);
+console.log(rows[0]);
 
-console.log(count * 3);
+rows[2] = 10;
 
-console.log(count / 2);
+console.log(rows);
+
+console.log(rows[rows.length - 1]);
