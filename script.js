@@ -4,11 +4,15 @@ let count = 8;
 
 let rows = ['Naomi', 'Quincy', 'CamperChan'];
 
-let cities = ["London", " New York", "Mumbai"];
+rows.push('freeCodeCamp');
 
-console.log(cities);
+console.log(rows);
 
-cities[cities.length - 1] = 'Mexico City';
+let popped = rows.pop(); // remove "freeCodeCamp" e guarda na variável
 
-console.log(cities);
+console.log(popped);
+
+let pushed = rows.push('freeCodeCamp');
+
+console.log(pushed);
 
