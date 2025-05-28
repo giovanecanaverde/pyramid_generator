@@ -4,10 +4,11 @@ let count = 8;
 
 let rows = ['Naomi', 'Quincy', 'CamperChan'];
 
-console.log(rows[0]);
+let cities = ["London", " New York", "Mumbai"];
 
-rows[2] = 10;
+console.log(cities);
 
-console.log(rows);
+cities[cities.length - 1] = 'Mexico City';
 
-console.log(rows[rows.length - 1]);
+console.log(cities);
+
