@@ -1,18 +1,9 @@
-let character = 'Hello';
+const character = "#";
 
-let count = 8;
+const count = 8;
 
-let rows = ['Naomi', 'Quincy', 'CamperChan'];
+const rows = [];
 
-rows.push('freeCodeCamp');
-
-console.log(rows);
-
-let popped = rows.pop(); // remove "freeCodeCamp" e guarda na variável
-
-console.log(popped);
-
-let pushed = rows.push('freeCodeCamp');
-
-console.log(pushed);
-
+for (let i = 0; i < count; i = i + 1) {
+    console.log(i);
+}
