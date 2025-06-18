@@ -5,10 +5,13 @@ const count = 8;
 const rows = [];
 
 function padRow(name) {
-    return name;
+    const test = "Testing";
+    console.log("This works!");
+    return test;
+    console.log("This works!");
 }
 
-const call = padRow();
+const call = padRow("CamperChan");
 console.log(call);
 
 for (let i = 0; i < count; i = i + 1) {
