@@ -4,12 +4,9 @@ const count = 8;
 
 const rows = [];
 
-function padRow() {
-    const test = "Testing";
-    return test;
+function padRow(rowNumber, rowCount) {
+    return character.repeat(rowNumber); 
 }
-
-const call = padRow();
 
 for (let i = 0; i < count; i = i + 1) {
     rows.push(character.repeat(i + 1));
