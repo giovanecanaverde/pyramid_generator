@@ -10,7 +10,7 @@ function padRow(rowNumber, rowCount) {
     return spaces + blocks + spaces; 
 }
 
-for (let i = 0; i < count; i = i + 1) {
+for (let i = 0; i < count; i += 1) {
     rows.push(padRow(i + 1, count));
 }
 
@@ -20,4 +20,4 @@ for(const row of rows) {
     result = result + row + "\n";
 }
 
-console.log(result);
+console.log(result);[]
