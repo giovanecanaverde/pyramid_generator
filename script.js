@@ -10,8 +10,9 @@ function padRow(rowNumber, rowCount) {
     return spaces + blocks + spaces; 
 }
 
-for (let i = 0; i < count; i += 1) {
-    rows.push(padRow(i + 1, count));
+// TODO: utilizar um tipo diferente de loop
+for (let i = 1; i <= count; i ++) {
+    rows.push(padRow(i, count));
 }
 
 let result = "";
