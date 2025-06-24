@@ -16,6 +16,12 @@ function padRow(rowNumber, rowCount) {
 }
 */
 
+let continueLoop = false;
+let dome = 0;
+while (continueLoop) {
+    
+}
+
 let result = "";
 
 for(const row of rows) {
