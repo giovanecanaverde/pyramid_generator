@@ -19,7 +19,10 @@ function padRow(rowNumber, rowCount) {
 let continueLoop = false;
 let dome = 0;
 while (continueLoop) {
-    
+    done++;
+    if (done === count) {
+        continueLoop = false;
+    }
 }
 
 let result = "";
