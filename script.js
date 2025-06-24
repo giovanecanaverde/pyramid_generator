@@ -18,11 +18,10 @@ function padRow(rowNumber, rowCount) {
 
 let continueLoop = false;
 let dome = 0;
-while (continueLoop) {
+
+while (done !== count) {
     done++;
-    if (done === count) {
-        continueLoop = false;
-    }
+    rows.push(padRow(done, count));
 }
 
 let result = "";
