@@ -16,10 +16,9 @@ function padRow(rowNumber, rowCount) {
 }
 */
 
-let continueLoop = false;
 let dome = 0;
 
-while (done !== count) {
+while (done <= count) {
     done++;
     rows.push(padRow(done, count));
 }
