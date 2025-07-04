@@ -11,8 +11,8 @@ function padRow(rowNumber, rowCount) {
 }
 
 // TODO: utilizar um tipo diferente de loop
-/* for (let i = 1; i <= count; i ++) {
-    rows.push(padRow(i, count));
+for (let i = 1; i <= count; i ++) {
+    rows.unshift(padRow(i, count));
 }
 
 /*
